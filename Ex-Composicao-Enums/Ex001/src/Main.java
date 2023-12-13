@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws ParseException {
 
         Scanner scanner = new Scanner(System.in);
-        SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YYYY");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.print("Enter com o nome do departamento:");
         String nomeDepartamento = scanner.next();
@@ -25,7 +25,7 @@ public class Main {
         int n = scanner.nextInt();
 
         for (int i = 1; i <= n; i++){
-            System.out.println("Entre com o contrato " + (1 + i) + ":");
+            System.out.println("Entre com o contrato " + (i) + ":");
             System.out.print("Data (DD/MM/YYYY): ");
             Date dataDoContrato = sdf.parse(scanner.next());
             System.out.print("Valor por hora: ");

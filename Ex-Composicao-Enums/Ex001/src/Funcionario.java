@@ -73,7 +73,7 @@ public class Funcionario {
             if (ano == c_ano && mes == c_mes){
                 soma += c.valorTotal();
             }
-        }return soma;
-
+        }
+        return soma;
     }
 }
